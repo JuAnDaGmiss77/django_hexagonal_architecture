@@ -1,4 +1,4 @@
-from authentication.application.services.user_service import UserService
+from users.application.services.user_service import UserService
 from rest_framework.decorators import api_view, parser_classes
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
