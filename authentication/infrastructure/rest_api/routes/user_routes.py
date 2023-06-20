@@ -1,5 +1,5 @@
 from django.urls import path
-from authentication.infraestructure.rest_api.controllers.user_controller import UserController
+from authentication.infrastructure.rest_api.controllers.user_controller import UserController
 
 urlpatterns = [
     path('create_user/', UserController.create_user),
